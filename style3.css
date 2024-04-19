@@ -1,0 +1,31 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	height: 200px;
+	background-color: black;
+}
+.box ul{
+	position: relative;
+}
+.box ul li{
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	opacity: 1;
+	width: 100px;
+	top:0;
+	list-style: none;
+	transition:0.4s all;
+}
+.okvir{
+	margin-left: 20px;
+	float: left;
+	height: 200px;
+	width: 100px;
+}
+.box ul .okvir:hover>li{
+	top: 200px;
+	opacity: 0;
+}

@@ -1,0 +1,21 @@
+li{
+	line-height: 50px;
+	text-align: center;
+	height: 50px;
+	width: 180px;
+	background-color: blue;
+	list-style: none;
+	position: relative;
+}
+li ul{
+	position: absolute;
+}
+ul.menu>li{
+	display: inline-block;
+}
+ul li ul{
+	visibility: hidden;
+}
+ul li:hover>ul{
+	visibility: visible;
+}
