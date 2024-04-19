@@ -1,0 +1,39 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.box{
+	height: 500px;
+	background-color: #065374;
+}
+.box ul{
+	position: relative;
+}
+.box ul li{
+	position: absolute;
+	background-color: cyan;
+	height: 500px;
+	opacity: 1;
+	width: 100px;
+	top:0;
+	list-style: none;
+	transition:0.4s all;
+}
+.okvir{
+	margin-left: 20px;
+	float: left;
+	height: 500px;
+	width: 100px;
+}
+.box ul .okvir:hover>li{
+	top: 200px;
+	opacity: 0.20;
+}
+p, h1, h2 {
+    font-family: "Lucida Console", "Courier New";
+    text-align: center;
+}
+ul {
+    display: table;
+    margin: 0 auto;
+}

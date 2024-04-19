@@ -1,0 +1,24 @@
+li{
+	line-height: 50px;
+	text-align: center;
+	height: 50px;
+	width: 350px;
+	background-color: rgba(128, 57, 138, 0.607);
+	list-style: none;
+	position: relative;
+    font-family: 'Courier New', Courier, monospace;
+}
+li ul{
+	position: absolute;
+}
+ul.menu>li{
+	display: inline-block;
+}
+ul li ul{
+	visibility: hidden;
+}
+ul li:hover>ul{
+	visibility: visible;}
+body {
+    background-image: url("pozadina_radionica3.jpg")
+}

@@ -1,0 +1,24 @@
+@-webkit-keyframes spektarboja{
+	0%{top:0;left:0;}
+	10%{top:100px;}
+	30%{top:20px; left: 100px;}
+	50%{top:30px; left: 400px;}
+	100%{top:0; left: 0;}
+}
+
+@keyframes spektarboja {
+    0%   {background-color:purple; left:0px; top:0px;}
+    25%  {background-color:yellow; left:1415px; top:0px;}
+    50%  {background-color:red; left:1415px; top:615px;}
+    75%  {background-color:green; left:0px; top:615px;}
+    100% {background-color:purple; left:0px; top:0px;}
+}
+
+.anim{
+	width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: spektarboja;
+    animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
